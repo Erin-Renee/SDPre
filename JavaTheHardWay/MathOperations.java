@@ -1,7 +1,7 @@
 public class MathOperations {
   public static void main( String[] args ) {
-    int a, b, c, d, e, f, g;
-    double x, y, z;
+    int a, b, c, d, e, f, g, h;
+    double x, y, z, k;
     String one, two, both;
 
     a = 10;
@@ -31,5 +31,11 @@ public class MathOperations {
     two = "house";
     both = one + two;
     System.out.println( both );
+
+// one integer (h) and one double (k) were added for study drill
+    h = b +a*2;
+    System.out.println( "b+a*2 is " + h );
+    k = x/4 + a%3;
+    System.out.println( " x/4+a%3 is " + k );
   }
 }

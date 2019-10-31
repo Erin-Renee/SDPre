@@ -14,13 +14,13 @@ public class CollegeAdmission {
 
     if ( math >= 790 )
       out.print( "CERTAIN " );
-    else if ( math >= 710 )
+    if ( math >= 710 )
       out.print( "SAFE " );
-    else if ( math >= 580 )
+    if ( math >= 580 )
       out.print( "PROBABLE " );
-    else if ( math >= 500 )
+    if ( math >= 500 )
       out.print( "UNCERTAIN " );
-    else if ( math >= 390 )
+    if ( math >= 390 )
       out.print( "UNLIKELY " );
     else // below 390 DENIED
       out.print( "DENIED " );
@@ -37,3 +37,6 @@ public class CollegeAdmission {
 
     Curly brackets are omitted because if statements are only one line of code,
     and because the if statements are in order. */
+
+    /* Drill #1: if you remove all of the elses except for the last one, it will
+    print all of the if statements. */

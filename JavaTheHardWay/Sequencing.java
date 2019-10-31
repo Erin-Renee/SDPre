@@ -18,3 +18,5 @@ public class Sequencing {
     System.out.println( "Total cost:\t" + total );
   }
 }
+
+// Exercise 10 Variables Only Hold Values

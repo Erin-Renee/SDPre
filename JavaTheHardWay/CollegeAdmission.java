@@ -14,14 +14,14 @@ public class CollegeAdmission {
 
     if ( math >= 790 )
       out.print( "CERTAIN " );
-    if ( math >= 710 )
-      out.print( "SAFE " );
-    if ( math >= 580 )
-      out.print( "PROBABLE " );
-    if ( math >= 500 )
-      out.print( "UNCERTAIN " );
-    if ( math >= 390 )
+    else if ( math >= 390 )
       out.print( "UNLIKELY " );
+    else if ( math >= 710 )
+      out.print( "SAFE " );
+    else if ( math >= 580 )
+      out.print( "PROBABLE " );
+    else if ( math >= 500 )
+      out.print( "UNCERTAIN " );
     else // below 390 DENIED
       out.print( "DENIED " );
 
@@ -36,7 +36,13 @@ public class CollegeAdmission {
     in System.out.print() with this import.
 
     Curly brackets are omitted because if statements are only one line of code,
-    and because the if statements are in order. */
+    and because the if statements are in order.
 
-    /* Drill #1: if you remove all of the elses except for the last one, it will
-    print all of the if statements. */
+    Drill #1: if you remove all of the elses except for the last one, it will
+    print all of the if statements.
+
+    Drill #2: Moving lines 23 and 24 to the line between 16 and 17 caused
+    the program to almost always print the unlikely if statement. Putting the if
+    statements out of order caused the system to pring unlikely even for scores
+    that should have caused the program to print safe, probable, and uncertain.
+     */

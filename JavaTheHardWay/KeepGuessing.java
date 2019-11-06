@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class KeepGuessing {   //ex 27 Infinite Loops
+public class KeepGuessing {   //ex 27 Infinite Loops pg 101
   public static void main( String[] args ) {
     Scanner keyboard = new Scanner(System.in);
     int secret, guess;

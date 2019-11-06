@@ -1,4 +1,4 @@
-public class ClubBouncer {
+public class ClubBouncer {    //Ex 17 Otherwise (If Statements with Else) pg 69
   public static void main( String[] args ) {
     int age = 22;
     boolean onGuestList = false;
@@ -13,3 +13,9 @@ public class ClubBouncer {
     }
   }
 }
+/*
+STUDY Drill
+1.  No putting System.out.println("Hello"); statement on line 11 would not compile. This is
+because the print statement is not inside the if's code body. It then disrupts
+ the if/else code.
+*/

@@ -28,7 +28,7 @@ STUDY DRILLS
    edited version runs:
    Here.
    There.
-   back first time. 
+   back first time.
    back second time.
 
 
